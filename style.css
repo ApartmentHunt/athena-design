@@ -1,0 +1,147 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+#headerSection {
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  height: 982px;
+}
+.logo img {
+  width: 171px;
+  float: left;
+  padding-top: 30px;
+}
+.container {
+  padding-left: 135px;
+  padding-right: 135px;
+  clear: both;
+  overflow: auto;
+}
+nav {
+  float: right;
+}
+ul li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.heading {
+  font-size: 107px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 44px;
+  font-weight: lighter;
+}
+.headerContent p {
+  font-size: 16px;
+  margin-bottom: 18px;
+  font-weight: 400;
+  word-spacing: 5px;
+  color: gray;
+  line-height: 1.6;
+}
+.headerContentImage img {
+  width: 805px;
+}
+.headerContentImage {
+  padding-top: 40px;
+}
+.button {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 19px 35px 19px 40px;
+  text-align: center;
+  border: none;
+  background: rgb(42, 245, 152);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 245, 152, 1) 0%,
+    rgba(0, 158, 253, 1) 81%
+  );
+  border-radius: 40px 0px 40px 0px;
+}
+
+#secondBanner {
+  background-image: url(./images/2ndBanner.png);
+  background-repeat: no-repeat;
+  height: 710px;
+}
+
+.secondBannerHeader {
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 67px;
+}
+.secondBannerHeader h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+.secondBannerHeader p {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+  line-height: 1.6;
+  margin-top: -5px;
+}
+
+#thirdBanner {
+  background-image: url(./images/3rdBanner.png);
+  background-repeat: no-repeat;
+  height: 950px;
+}
+.rowThirdBanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+}
+.thirdBannerContent p {
+  font-size: 16px;
+  margin-bottom: 18px;
+  font-weight: 400;
+  word-spacing: 5px;
+  color: gray;
+  line-height: 1.6;
+}
+.thirdBannerHeading {
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 44px;
+  font-weight: 500;
+}
+.thirdBannerContentImage img {
+  width: 812px;
+  height: 742px;
+}
+.iconDiv {
+  text-align: center;
+  padding: 58px 73px;
+}
+.iconDiv img {
+  width: 115px;
+}
+.iconDiv p {
+  color: gray;
+  line-height: 1.6;
+}
+.iconDivUnique {
+  background-color: white;
+  box-shadow: 0px 37px 91px -3px #eaf9f2;
+  border-radius: 110px 0px 110px 0px;
+}
