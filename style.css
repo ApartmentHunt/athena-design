@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 20px;
   overflow-x: hidden;
@@ -24,10 +24,7 @@ h1 {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  color: #797777;
-  line-height: 20px;
-  word-spacing: 1.5px;
-  letter-spacing: 0.2px;
+  color: #8D8D8D;
   font-weight: 500;
 }
 
@@ -37,6 +34,7 @@ p {
   margin: 0 auto;
   padding: 20px 15px;
 }
+
 .header-area {
   background: url(./images/bg.png);
   background-position: center center;
@@ -88,7 +86,9 @@ a.site-logo {
 }
 
 .site-navbar ul li a {
+  font-family: "Montserrat", sans-serif;
   color: #0D052E;
+  font-weight: 700;
   padding: 20px;
   display: block;
   text-decoration: none;
@@ -96,7 +96,16 @@ a.site-logo {
 }
 
 .site-navbar ul li a:hover {
-  background: rgba(255, 255, 255, .1);
+  font-family: "Montserrat", sans-serif;
+  color: white !important;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 19px 35px 19px 40px;
+  text-align: center;
+  border: none;
+  background: rgb(42, 245, 152);
+  background: linear-gradient( 90deg, rgba(42, 245, 152, 1) 0%, rgba(0, 158, 253, 1) 81%);
+  border-radius: 40px 0px 40px 0px;
 }
 
 /* navbar regular css end */
@@ -263,8 +272,9 @@ a.site-logo {
 }
 
 .service h3 {
+  font-family: 'Montserrat', sans-serif;
   margin-top: 10px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .service p {
@@ -290,7 +300,8 @@ a.site-logo {
 }
 
 .running-projectContent p {
-  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px !important;
   margin-bottom: 18px;
   font-weight: 500;
   word-spacing: 5px;
@@ -330,12 +341,18 @@ a.site-logo {
   border-radius: 110px 0px 110px 0px;
 }
 
-.achievementIcons img {
-  padding-top: 20px;
-  padding-right: 30px;
+.achievements {
+  padding-top: -200px;
+  margin-bottom: 300px;
 }
 
-.thirdBannerHeading{
+.achievementIcons img {
+  padding-top: 30px;
+  padding-right: 10px;
+  width: 65px;
+}
+
+.thirdBannerHeading {
   font-family: 'Raleway', sans-serif;
   color: #0D052E;
   font-weight: 700;
@@ -343,8 +360,9 @@ a.site-logo {
 }
 
 .achievements-container h3 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .achievements-container h5 {
@@ -353,52 +371,68 @@ a.site-logo {
 }
 
 .buttonSecondaryOne {
+  max-height: 150px;
+  max-width: 280px;
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 18px;
   font-weight: 500;
-  padding: 48px 80px 50px 80px;
+  padding: 20px 40px 90px 40px;
   text-align: center;
   border: none;
   background: rgb(42, 245, 152);
   background: linear-gradient( 90deg, rgba(42, 245, 152, 1) 0%, rgba(0, 158, 253, 1) 81%);
   border-radius: 0px 100px 0px 100px;
+  margin: 5px;
+  margin-left: 25px !important;
 }
 
 .buttonSecondaryTwo {
+  max-height: 150px;
+  max-width: 280px;
   font-family: "Montserrat", sans-serif;
   color: gray;
   font-size: 18px;
   font-weight: 500;
-  padding: 49px 43px 49px 44px;
+  padding: 10px 20px 40px 35px;
   text-align: center;
   border: none;
-  background: white;
+  background: rgb(42, 245, 152);
+  ;
   border-radius: 100px 0px 100px 0px;
+  margin: 5px;
 }
 
 .buttonSecondaryThree {
+  max-height: 150px;
+  max-width: 280px;
   font-family: "Montserrat", sans-serif;
   color: gray;
   font-size: 18px;
   font-weight: 500;
-  padding: 49px 99px 49px 100px;
+  padding: 20px 45px 30px 50px;
   text-align: center;
   border: none;
-  background: white;
+  background: rgb(42, 245, 152);
+  ;
   border-radius: 100px 0px 100px 0px;
+  margin: 5px;
 }
 
 .buttonSecondaryFour {
+  max-height: 150px;
+  max-width: 280px;
   font-family: "Montserrat", sans-serif;
   color: gray;
   font-size: 18px;
   font-weight: 500;
-  padding: 49px 63px 49px 64px;
+  padding: 20px 45px 49px 20px;
   text-align: center;
   border: none;
-  background: white;
+  background: rgb(42, 245, 152);
+  ;
   border-radius: 0px 100px 0px 100px;
+  margin: 5px;
 }
 
 #blankBanner {
@@ -434,8 +468,9 @@ a.site-logo {
 }
 
 .pricing h1 {
-  font-size: 67px;
-  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
 }
 
 .pricing p {
@@ -449,7 +484,7 @@ a.site-logo {
   margin-top: 70px;
   padding: 32px;
   border-radius: 8px;
-  height: 600px;
+  height: auto;
 }
 
 .pricing-card:hover {
@@ -476,8 +511,10 @@ hr {
 }
 
 .pricingUnique h1 {
-  font-size: 67px;
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #0D052E;
+  font-weight: 500;
+  font-size: 4rem;
 }
 
 .pricingUnique p {
@@ -486,8 +523,19 @@ hr {
   color: #353535;
 }
 
+.pricing p {
+  padding-top: 10px;
+  line-height: 24px
+}
+
+.space-add {
+  background-color: #F0FEFC;
+  height: 80px;
+}
+
 #contact {
-  background-color: #fafffd;
+  background-color: #F0FEFC;
+  margin-top: 200px;
 }
 
 .contactHeading {
@@ -496,18 +544,18 @@ hr {
 }
 
 .contactHeading h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #0D052E;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 4rem;
 }
 
-.contactHeading p {
-  font-size: 24px;
+.footer-section p {
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500 !important;
-  color: #353535;
-  padding-bottom: 79px;
+  color: #464646;
+  padding: 5px;
 }
 
 .contactField {
@@ -574,7 +622,8 @@ input[type="button"] {
 }
 
 .socialIconsContainer {
-  padding-bottom: 83px;
+  margin-top: -200px;
+  padding-bottom: 50px !important;
 }
 
 .rowThirdBanner {
@@ -602,6 +651,7 @@ input[type="button"] {
   text-align: center !important;
   margin-left: 300px;
 }
+
 .info {
   padding: 15px 0px 0px 110px;
   margin-bottom: 1px solid lightgrey !important;
@@ -663,11 +713,45 @@ input[type="button"] {
     padding: 15px 0px 0px 110px;
     margin-bottom: 1px solid lightgrey !important;
   }
-
-  .achievements-container {
+  .achievements {
     clear: both;
     overflow: hidden;
     width: 100%;
+    padding-left: -60px;
+    margin-top: 200px !important;
+  }
+  .container-md {
     padding: 10px;
+  }
+  .buttonSecondaryTwo {
+    margin-right: 10px !important;
+  }
+  .footer-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .link-box {
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .socialIconsContainer{
+    padding-bottom: 200px;
+  }
+
+  .socialIcons{
+    margin-right: -1px;
+    padding-bottom: 50px;
+  }
+
+  .main-logo{
+    margin-left: 30%;
+    margin-bottom: 30px;
+  }
+
+  .price-heading{
+    margin-left: -40px !important;
   }
 }

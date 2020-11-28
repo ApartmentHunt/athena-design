@@ -30,12 +30,12 @@
 
           <!-- site menu/nav -->
           <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">service</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
             <li><a href="#">Pricing</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a class="graphic-button" href="#">contact</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">contact</a></li>
           </ul>
 
           <!-- nav-toggler for mobile version only -->
@@ -143,9 +143,9 @@
 
   <!-- ------------------------------------------- -->
 
-  <section id="blankBanner">
-    <div class="achievements-container">
-      <div class="rowThirdBanner">
+  <section class="container achievements">
+    <div class="row">
+      <div class="col-md-5">
         <div class="thirdBannerContent">
           <h1 class="thirdBannerHeading">Our Achievements</h1>
           <p>
@@ -156,66 +156,65 @@
           </p>
           <br />
         </div>
-        <div class="">
-          <div class="achievements-row">
-            <div class="buttonSecondaryOne">
-              <div class="achievements-row">
-                <div class="achievementIcons">
-                  <img src="./images/happy.png" alt="" width="77" />
-                </div>
-                <div>
-                  <h3>700+</h3>
-                  <h5>Happy Clients</h5>
-                </div>
+      </div>
+      <div class="col-md-7">
+        <div class="achievements-row">
+          <div class="buttonSecondaryOne">
+            <div class="achievements-row">
+              <div class="achievementIcons">
+                <img src="./images/happy.png" alt="" width="77" />
               </div>
-            </div>
-            <div class="buttonSecondaryTwo">
-              <div class="achievements-row">
-                <div class="achievementIcons">
-                  <img src="./images/trophy.png" alt="" width="77" />
-                </div>
-                <div>
-                  <h3>140+</h3>
-                  <h5>Projects Completed</h5>
-                </div>
+              <div>
+                <h3>700+</h3>
+                <h5>Happy Clients</h5>
               </div>
             </div>
           </div>
-          <br />
-          <div class="achievements-row">
-            <div class="buttonSecondaryThree">
-              <div class="achievements-row">
-                <div class="achievementIcons">
-                  <img src="./images/star.png" alt="" width="61" />
-                </div>
-                <div>
-                  <h3>25+</h3>
-                  <h5>Crazy Minds</h5>
-                </div>
+          <div class="buttonSecondaryTwo">
+            <div class="achievements-row">
+              <div class="achievementIcons">
+                <img src="./images/trophy.png" alt="" width="77" />
+              </div>
+              <div>
+                <h3>140+</h3>
+                <h5>Projects Completed</h5>
               </div>
             </div>
-            <div class="buttonSecondaryFour">
-              <div class="achievements-row">
-                <div class="achievementIcons">
-                  <img src="./images/rocket.png" alt="" width="77" />
-                </div>
-                <div>
-                  <h3>75+</h3>
-                  <h5>Running Projects</h5>
-                </div>
+          </div>
+        </div>
+        <br />
+        <div class="achievements-row">
+          <div class="buttonSecondaryThree">
+            <div class="achievements-row">
+              <div class="achievementIcons">
+                <img src="./images/star.png" alt="" width="61" />
+              </div>
+              <div>
+                <h3>25+</h3>
+                <h5>Crazy Minds</h5>
+              </div>
+            </div>
+          </div>
+          <div class="buttonSecondaryFour">
+            <div class="achievements-row">
+              <div class="achievementIcons">
+                <img src="./images/rocket.png" alt="" width="77" />
+              </div>
+              <div>
+                <h3>75+</h3>
+                <h5>Running Projects</h5>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
   <!-- ----------------------------------- -->
 
   <section class="container-md">
     <div class="pricing">
-      <div>
+      <div class="price-heading">
         <h1>CHOOSE YOUR DEDICATED TEAM</h1>
       </div>
       <div class="row">
@@ -249,7 +248,6 @@
             <p>Free Stock Photos</p>
             <p>20 Days Free Support</p>
             <p>24/7 Support</p>
-            <br />
             <br>
             <button class="graphic-button">Order Now</button>
           </div>
@@ -279,7 +277,7 @@
 
 
   <section id="contact">
-    <div class="container">
+    <div background="#F0FEFC"  class="container">
       <div class="contactHeading">
         <h1>Get your design right, right now</h1>
         <br>
@@ -294,13 +292,13 @@
   </section>
 
   <!-- ----------------------- -->
-
-
-  <section id="footer">
-    <div class="container">
-      <div class="row">
-        <div>
-          <img class="footerLogo" src="./images/logo.png" alt="" width="171" />
+  <section class="container footer-section">
+    <div class="row footer-part">
+      <div class="col-md-6">
+        <div class="row">
+          <img class="main-logo" src="./images/logo.png" alt="" width="170" />
+        </div>
+        <div class="row">
           <div class="socialIconsContainer">
             <img class="socialIcons" src="./images/facebook.png" alt="" />
             <img class="socialIcons" src="./images/twitter.png" alt="" />
@@ -308,29 +306,34 @@
             <img class="socialIcons" src="./images/dribbble .png" alt="" />
             <img class="socialIcons" src="./images/behance.png" alt="" />
           </div>
-        </div>
-        <div class="info-collections">
-          <div class="info">
-            <p>Features</p>
-            <p>Enterprise</p>
-            <p>Pricing</p>
-          </div>
-          <div class="info">
-            <p>Blog</p>
-            <p>Help Center</p>
-            <p>Contact Us</p>
-            <p>Status</p>
-          </div>
-          <div class="info">
-            <p>About Us</p>
-            <p>Terms of Service</p>
-            <p>Security</p>
-            <p>Login</p>
-          </div>
+          <br>
         </div>
       </div>
+      <div class="col-md-2 link-box">
+        <p>Features</p>
+        <p>Enterprise</p>
+        <p>Pricing</p>
+        <p>Services</p>
+      </div>
+      <div class="col-md-2  link-box">
+        <p>Blog</p>
+        <p>Help Center</p>
+        <p>Contact Us</p>
+        <p>Status</p>
+      </div>
+      <div class="col-md-2  link-box">
+        <p>About Us</p>
+        <p>Terms</p>
+        <p>Security</p>
+        <p>Login</p>
+      </div>
+    </div>
+    <div class="row space-add">
+
     </div>
   </section>
+
+
 
   <!-- ------------------ -->
 
